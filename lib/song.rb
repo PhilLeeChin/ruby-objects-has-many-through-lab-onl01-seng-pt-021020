@@ -14,8 +14,4 @@ class Song
   def self.all
     @@all
   end
-
-  def genre
-    songs.collect {|song| song.genre}
-  end
 end
