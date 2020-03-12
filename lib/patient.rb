@@ -3,8 +3,8 @@ class Patient
 
   @@all = []
 
-  def initialize(name)
-    @name = name
+  def initialize(patient)
+    @name = patient
     @@all << self
   end
 
